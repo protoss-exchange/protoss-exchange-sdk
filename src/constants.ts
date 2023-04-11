@@ -41,13 +41,13 @@ export const SOLIDITY_TYPE_MAXIMA = {
   [SolidityType.uint256]: JSBI.BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
 }
 
-export const PAIR_CONTRACT_CLASS_HASH = '0x00ce61e906700ba8fceb3a7b294dc4369b210807bad75273e59aef856e383b62'
+export const PAIR_CONTRACT_CLASS_HASH = '0x07b2dcbbf952e8668b4ab2afe40b99e6a023d5355f332f27644a0cac6537af48'
 
 export const FACTORY_ADDRESSES: {
   [chainId in StarknetChainId]: string
 } = {
   [StarknetChainId.MAINNET]: '0x01c0a36e26a8f822e0d81f20a5a562b16a8f8a3dfd99801367dd2aea8f1a87a2',
-  [StarknetChainId.TESTNET]: '0x0678950106a6e2d23ed2f38b3b645ea48e994a9d009c9aa7f8ef3f8b6434fb5e'
+  [StarknetChainId.TESTNET]: '0x0017b7cdbd6dd86b4b9baf572e040e74bd44b419dcbb6f38a2e936aec9327b8e'
 }
 
 export const CONTRACT_ADDRESS_PREFIX = encodeShortString('STARKNET_CONTRACT_ADDRESS')
